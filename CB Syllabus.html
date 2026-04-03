@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consumer Behaviour Syllabus</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f4ef;
+    --paper: #fffdf7;
+    --ink: #1a1a18;
+    --muted: #5a5a52;
+    --accent: #c84b2f;
+    --accent2: #2f6dc8;
+    --accent3: #2a8c55;
+    --rule: #d8d6cc;
+    --yellow: #f5e642;
+    --tag-bg: #1a1a18;
+    --tag-text: #f5f4ef;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 32px 20px;
+  }
+
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 1.5px solid var(--ink);
+    padding: 40px 48px;
+    position: relative;
+  }
+
+  .header {
+    border-bottom: 3px solid var(--ink);
+    padding-bottom: 16px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header-left h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+  .header-left .sub {
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .header-right {
+    text-align: right;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.8;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+
+  .section { margin-bottom: 36px; }
+  
+  .section-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-title .num {
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 11px;
+    padding: 2px 6px;
+    font-weight: 600;
+  }
+
+  .rule-strip {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .exempt-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  .exempt-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px 14px;
+    border: 1px solid var(--rule);
+    font-size: 13.5px;
+    background: #f9f8f2;
+  }
+  .exempt-item .tick {
+    color: var(--accent3);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1px;
+  }
+
+  .info-card {
+    border: 1px solid var(--rule);
+    padding: 20px;
+    background: var(--paper);
+  }
+  
+  .sal-tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    margin-bottom: 8px;
+  }
+
+  .book-content {
+    font-size: 13.5px;
+    line-height: 1.8;
+    white-space: pre-wrap; /* Preserves the exact spacing and tabs from your text */
+  }
+
+  .image-tag-highlight {
+    display: block;
+    margin: 12px 0;
+    color: var(--accent2);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 16px; }
+    .page { padding: 24px; }
+    .header { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .header-right { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="header-left">
+      <div class="badge">Syllabus</div>
+      <h1>Complete Chapter-wise Content List</h1>
+      <div class="sub">Consumer Behaviour</div>
+    </div>
+    <div class="header-right">
+      Course Outline<br>
+      <strong>University & Book Content</strong><br>
+      Detailed Breakdown
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">Unit 1</span> Consumer Behaviour</div>
+    
+    <div class="rule-strip">
+      <span class="icon">🎓</span>
+      <span><strong>University Syllabus</strong></span>
+    </div>
+    
+    <div class="exempt-list">
+      <div class="exempt-item">
+        <span class="tick">✓</span>
+        <span>Concept and importance of Consumer Behaviour</span>
+      </div>
+      <div class="exempt-item">
+        <span class="tick">✓</span>
+        <span>Consumer Behaviour Models: <strong>Nicosia Model</strong>, Howard-Sheth Model <br>
+        
+        
+        </span>
+      </div>
+      <div class="exempt-item">
+        <span class="tick">✓</span>
+        <span>Marketing Ethics</span>
+      </div>
+    </div>
+
+    <div class="sal-tag">Detailed Chapter Contents (Book)</div>
+    <div class="info-card">
+      <div class="book-content">1.1 Introduction  
+1.2 Concept of Consumer Behaviour  
+1.3 Definition of Consumer Behaviour  
+1.4 Implications of Consumer Behaviour in Marketing  
+1.5 Characteristics of Consumer Behaviour  
+1.6 Scope of Consumer Behaviour  
+1.7 Importance of Consumer Behaviour  
+1.8 Consumer Behaviour Models  
+ 1.8.1 Traditional Model  
+ 1.8.2 Contemporary Models  
+  - Nicosia Model  
+  - Howard-Sheth Model  
+1.9 Howard-Sheth Model  
+ 1.9.1 Introduction  
+ 1.9.2 Definition  
+ 1.9.3 Levels of Decision-Making as per Howard-Sheth Model of Consumer Behaviour  
+ 1.9.4 Main Constructs of the Howard-Sheth Model  
+ 1.9.5 Importance of Howard-Sheth Model  
+1.10 Marketing Ethics  
+ 1.10.1 Definition  
+ 1.10.2 Principles of Marketing Ethics  
+ 1.10.3 Ethical Issues in Marketing</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">Unit 2</span> Determinants of Consumer Behaviour</div>
+    
+    <div class="rule-strip">
+      <span class="icon">🎓</span>
+      <span><strong>University Syllabus</strong></span>
+    </div>
+    
+    <div class="exempt-list">
+      <div class="exempt-item"><span class="tick">✓</span><span>Consumer as an Individual, Need, Motivation</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Personality, Perception, Learning Attitude</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Communication Persuasion</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Consumers in their Social & Cultural Setting, the Family, Social Class, Cross-Cultural Consumer Behaviour</span></div>
+    </div>
+
+    <div class="sal-tag">Detailed Chapter Contents (Book)</div>
+    <div class="info-card">
+      <div class="book-content">2.1 Consumer as an Individual  
+
+2.2 Need  
+ 2.2.1 Definition  
+ 2.2.2 Types of Need  
+ 2.2.3 Need from the Viewpoint of Consumer Behaviour  
+ 2.2.4 Maslow’s Hierarchy of Needs  
+
+2.3 Motivation  
+ 2.3.1 Definition  
+ 2.3.2 Types of Motivation  
+ 2.3.3 Features of Motivation  
+ 2.3.4 Motivation as a Determinant of Consumer Behaviour  
+
+2.4 Personality  
+ 2.4.1 Definition  
+ 2.4.2 Traits of Personality  
+ 2.4.3 Importance of Personality in Consumer Behaviour  
+ 2.4.4 Personality as Determinants of Consumer Behaviour  
+
+2.5 Perception  
+ 2.5.1 Definition  
+ 2.5.2 Elements of Perception  
+ 2.5.3 Features of Perception  
+ 2.5.4 Importance of Perception  
+ 2.5.5 How Perception Influences Consumer Behaviour  
+
+2.6 Learning Attitudes  
+ 2.6.1 Definition  
+ 2.6.2 Importance of Learning Attitude  
+ 2.6.3 Impact of Learning Attitude on Consumer Behaviour  
+
+2.7 Communication Persuasion  
+ 2.7.1 Process of Communication Persuasion  
+ 2.7.2 Importance or Impact of Communication Persuasion in Consumer Behaviour  
+
+2.8 Consumers in their Social and Cultural Settings  
+ 2.8.1 Social Settings of Consumer  
+ 2.8.2 Categories of Social Class  
+ 2.8.3 Impact of Social Influence on Consumer Behaviour  
+ 2.8.4 Culture — Definition  
+  2.8.4.1 Cultural Settings of Consumers  
+  2.8.4.2 Impact of Culture on Consumer Behaviour  
+
+2.9 The Family  
+ 2.9.1 Definition  
+ 2.9.2 Types of Family Structure  
+ 2.9.3 Influence of the Family Structure on Consumer Behaviour  
+
+2.10 Social Class  
+ 2.10.1 Definition  
+ 2.10.2 Classification of Social Class  
+ 2.10.3 Social Class and its Impacts on Consumer Behaviour  
+
+2.11 Cross-Cultural Consumer Behaviour  
+ 2.11.1 Definition  
+ 2.11.2 Importance of Cross-Cultural Consumer Behaviour  
+ 2.11.3 Factors Influencing Cross-Cultural Consumer Behaviour</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">Unit 3</span> Consumer Decision-Making Process</div>
+    
+    <div class="rule-strip">
+      <span class="icon">🎓</span>
+      <span><strong>University Syllabus</strong></span>
+    </div>
+    
+    <div class="exempt-list">
+      <div class="exempt-item"><span class="tick">✓</span><span>Personal and Societal Influence & Opinion</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Consumer decision-making process (Product: Goods & Services)</span></div>
+    </div>
+
+    <div class="sal-tag">Detailed Chapter Contents (Book)</div>
+    <div class="info-card">
+      <div class="book-content">3.1 Definition  
+3.2 Stages in Consumer Decision-Making Process  
+3.3 Factors Influencing Consumer Decision-Making Process  
+3.4 Advantages of Consumer Decision-Making Process  
+3.5 Limitations of Consumer Decision-Making Process  
+3.6 Personal Influence — The Concept  
+ 3.6.1 Personal Influence on Consumer Decision-Making Process  
+3.7 Societal Influence — The Concept  
+ 3.7.1 Societal Influence on Consumer Decision-Making Process  
+3.8 Opinion — The Concept  
+ 3.8.1 Influence of Opinion on Consumer Decision-Making Process  
+ 3.8.2 Opinion Leader — Definition  
+ 3.8.3 Characteristics of Opinion Leader  
+3.9 Advantages of Personal Influence, Social Influence, and Opinion in Consumer Decision-Making Process  
+3.10 Limitations of Personal Influence, Social Influence, and Opinion in Consumer Decision-Making Process  
+3.11 The Consumer Decision-Making Process Concerning Goods and Services — The Concept  
+3.12 Factors Influencing Consumer Decision-Making Process Concerning Goods and Services</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">Unit 4</span> Consumer Behaviour and Society</div>
+    
+    <div class="rule-strip">
+      <span class="icon">🎓</span>
+      <span><strong>University Syllabus</strong></span>
+    </div>
+    
+    <div class="exempt-list">
+      <div class="exempt-item"><span class="tick">✓</span><span>Health-care Marketing</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Political Marketing</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Social Marketing</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Environmental Marketing</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Public Policy & Consumer Protection</span></div>
+    </div>
+
+    <div class="sal-tag">Detailed Chapter Contents (Book)</div>
+    <div class="info-card">
+      <div class="book-content">4.1 Health Care Marketing  
+ 4.1.1 The Concept and Definition  
+ 4.1.2 Objectives and Importance of Healthcare Marketing  
+ 4.1.3 Factors Influencing Healthcare Marketing  
+ 4.1.4 Parties Involved in Healthcare Marketing  
+ 4.1.5 Major Components of Healthcare Marketing  
+ 4.1.6 Strategies of Healthcare Marketing  
+ 4.1.7 How Does Healthcare Marketing Influence Consumer Behaviour?  
+ 4.1.8 How Does Consumer Behaviour Influence Healthcare Marketing?
+
+4.2 Political Marketing  
+ 4.2.1 Concept and Definition  
+ 4.2.2 Importance of Political Marketing  
+ 4.2.3 Factors Influencing Political Marketing  
+ 4.2.4 Types of Political Marketing  
+ 4.2.5 Various Models of Political Marketing  
+ 4.2.6 Advantages of Political Marketing  
+ 4.2.7 Limitations of Political Marketing  
+ 4.2.8 Behaviour of Voters Influencing Political Marketing  
+ 4.2.9 Ethics in Political Marketing
+
+4.3 Social Marketing  
+ 4.3.1 Definition  
+ 4.3.2 Examples of Social Marketing  
+ 4.3.3 Features of Social Marketing  
+ 4.3.4 Importance of Social Marketing  
+ 4.3.5 Role of Marketing Mix in Social Marketing  
+ 4.3.6 Advantages of Social Marketing  
+ 4.3.7 Limitations of Social Marketing  
+ 4.3.8 Uses or Applications of Social Marketing Across Various Sectors  
+ 4.3.9 How Social Marketing Influences Consumer Behaviour?
+
+4.4 Environmental Marketing  
+ 4.4.1 Definition  
+ 4.4.2 Scope of Environmental Marketing  
+ 4.4.3 Features of Environmental Marketing  
+ 4.4.4 Importance of Environmental Marketing  
+ 4.4.5 Strategies of Environmental Marketing  
+ 4.4.6 Environmental Marketing Mix  
+ 4.4.7 Advantages of Environmental Marketing  
+ 4.4.8 Disadvantages of Environmental Marketing  
+ 4.4.9 Impact of Environmental Marketing on Consumer Behaviour
+
+4.5 Public Policy and Consumer Protection
+
+### A. Public Policy
+ 4.5A.1 Public Policy — The Origin  
+ 4.5A.2 Concept of Public Policy  
+ 4.5A.3 Definition  
+ 4.5A.4 Features of Public Policy  
+ 4.5A.5 Types of Public Policy  
+ 4.5A.6 Process of Public Policy Formation  
+ 4.5A.7 Factors Influencing Public Policy  
+ 4.5A.8 Consumer Behaviour and Public Policy  
+ 4.5A.9 Impact of Public Policy on Consumer Behaviour
+
+### B. Consumer Protection
+ 4.5B.1 Definition  
+ 4.5B.2 Features of Consumer Protection  
+ 4.5B.3 Importance of Consumer Protection  
+ 4.5B.4 A Brief Idea about the Consumer Protection Act, 2019  
+ 4.5B.5 Necessity of Introduction of the Consumer Protection Act, 2019  
+ 4.5B.6 Features of the Consumer Protection Act, 2019  
+ 4.5B.7 Rights of Consumers as per the Consumer Protection Act, 2019  
+ 4.5B.8 Responsibilities of Consumer  
+ 4.5B.9 How Consumer Protection Influences Consumer Behaviour?</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title"><span class="num">Unit 5</span> Consumer Behaviour and Market Research</div>
+    
+    <div class="rule-strip">
+      <span class="icon">🎓</span>
+      <span><strong>University Syllabus</strong></span>
+    </div>
+    
+    <div class="exempt-list">
+      <div class="exempt-item"><span class="tick">✓</span><span>Relevance of Marketing Information System</span></div>
+      <div class="exempt-item"><span class="tick">✓</span><span>Market Research in Assessing Consumer Behaviour</span></div>
+    </div>
+
+    <div class="sal-tag">Detailed Chapter Contents (Book)</div>
+    <div class="info-card">
+      <div class="book-content">### A. Consumer Behaviour and Marketing Information System
+5A.1 Consumer Behaviour and Market Research — The Concept  
+5A.2 Marketing Information System (MIS) — Definition  
+5A.3 Components of Marketing Information System  
+5A.4 Importance of Marketing Information System  
+5A.5 Types of Data Required in a Marketing Information System  
+5A.6 Steps Involved in the Marketing Information System Process  
+5A.7 Relevance of Marketing Information System  
+5A.8 Advantages of Marketing Information System  
+5A.9 Impact of Marketing Information Systems on Consumer Behaviour  
+5A.10 Ethical Considerations of Marketing Information Systems
+
+### B. Market Research
+5B.1 Market Research — Definition  
+5B.2 Components of Market Research  
+5B.3 Scope of Market Research  
+5B.4 Types of Market Research  
+5B.5 Importance of Market Research  
+5B.6 Steps Involved in Conducting Market Research  
+5B.7 Impact of Market Research on Consumer Behaviour  
+5B.8 Role of Market Research in Understanding Consumer Behaviour  
+5B.9 Ethical Practices to be Followed in Market Research</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

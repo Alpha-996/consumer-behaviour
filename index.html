@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consumer Behaviour — Syllabus</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f4ef;
+    --paper: #fffdf7;
+    --ink: #1a1a18;
+    --muted: #5a5a52;
+    --accent: #c84b2f;
+    --accent2: #2f6dc8;
+    --accent3: #2a8c55;
+    --rule: #d8d6cc;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 32px 20px;
+  }
+
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 1.5px solid var(--ink);
+    padding: 40px 48px;
+  }
+
+  .header {
+    border-bottom: 3px solid var(--ink);
+    padding-bottom: 16px;
+    margin-bottom: 28px;
+  }
+
+  .header h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+
+  .header .sub {
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .section-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section-title .num {
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 10px;
+    padding: 1px 6px;
+    font-weight: 600;
+  }
+
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+
+  .link-item {
+    border: 1px solid var(--rule);
+    padding: 14px 18px;
+    background: var(--paper);
+    transition: all 0.2s;
+  }
+
+  .link-item:hover {
+    border-color: var(--accent);
+    background: #fff8f5;
+  }
+
+  .link-item a {
+    text-decoration: none;
+    color: var(--ink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link-item a:hover .arrow {
+    transform: translateX(4px);
+  }
+
+  .link-item .link-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .link-item .arrow {
+    color: var(--accent);
+    font-size: 18px;
+    transition: transform 0.2s;
+  }
+
+  .bottom-note {
+    border-top: 2px solid var(--ink);
+    margin-top: 28px;
+    padding-top: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  @media print {
+    body { padding: 0; }
+    .page { border: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <h1>Consumer Behaviour — Syllabus</h1>
+    <div class="sub">Academic Year 2025-26 · Study Notes & Material</div>
+  </div>
+
+  <div class="section-title"><span class="num">01</span> Introduction to Consumer Behaviour</div>
+  <div class="link-list">
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Consumer Behaviour — Overview</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Models of Consumer Behaviour</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="num">02</span> Consumer Decision Making</div>
+  <div class="link-list">
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Consumer Decision Making Process</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Types of Consumer Decisions</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-title"><span class="num">03</span> Consumer Psychology</div>
+  <div class="link-list">
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Perception & Learning</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Motivation & Personality</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <div class="link-item">
+      <a href="#">
+        <span class="link-title">Attitudes & Persuasion</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="bottom-note">
+    Consumer Behaviour — AY 2025-26
+  </div>
+
+</div>
+</body>
+</html>
